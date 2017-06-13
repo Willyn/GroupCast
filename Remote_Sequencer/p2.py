@@ -1,0 +1,10 @@
+import os
+os.system ("python printer.py")
+sleep(2)
+os.system ("python group.py")
+sleep(2)
+os.system ("python member.py 0")
+sleep(1)
+os.system ("python member.py 1")
+sleep(1)
+os.system ("python member.py 2")
